@@ -91,8 +91,7 @@ Displays original & updated content
 ## Live Demo
 **Backend Live API:**
 https://beyondchats-assignment-a6gp.onrender.com/api/articles
-- **Frontend Live Link:** `<Insert your deployed frontend link here>`  
----
+- **Frontend Live Link:** https://beyondchats-assignment-s3av.vercel.app/
 
 ## Code Quality
 
