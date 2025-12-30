@@ -8,7 +8,7 @@ const ArticleList = () => {
   useEffect(() => {
     const fetchArticles = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/articles");
+        const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/articles`);
         setArticles(res.data);
       } catch (err) {
         console.error("Error fetching articles:", err);
